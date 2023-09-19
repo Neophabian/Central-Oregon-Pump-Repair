@@ -1,0 +1,173 @@
+*{
+    margin:0 auto;
+    padding:0;
+}
+
+
+body {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-attachment: fixed;
+    background-size:auto;
+
+    
+    
+
+    &::before{
+        content:'';
+    background-image:url(Photos/Office\ 1edit.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    position: fixed; 
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity: 0.6;
+    }
+}
+
+@font-face{
+    src:url(WorkSans-VariableFont_wght.ttf);
+    font-family: worksans;
+
+}
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color:burlywood;
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+    
+}
+
+.navbar a{
+    
+    color:black;
+    font-family: worksans;
+    padding:15px;
+    text-align: center;
+    display:block;
+    
+}
+.navbar a:hover{
+    background-color:burlywood;
+}
+
+.navbar li{
+    float: left;
+    display: inline;
+
+}
+
+picture{
+    align-items: center;
+    text-align: center;
+    
+}
+
+a::before{
+    font-family: worksans;
+}
+
+a{
+    text-align:center;
+    display:block;
+    position:relative;
+    font-family:worksans;
+    color: black;
+
+}
+a:hover{
+    font-size: 1.1em;
+
+}
+
+button{
+    position:relative;
+
+}
+
+button:hover{
+    position:relative;
+    font-size: 1.1em;
+
+}
+
+p{
+    position:relative;
+    font-family: worksans;
+    font-weight:700;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+h1 { 
+    position:relative;
+    font-family: worksans;
+    font-weight:900;
+    text-align: center;
+}
+
+h2{
+    position: relative;
+    text-align:center;
+    
+}
+
+table {
+    position:relative;
+    
+}
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+tr{
+    position:relative;
+}
+
+#map{
+    position:relative;
+    height:400px;
+    width:45%;
+    float:bottom;
+}
+
+img{
+    width:300px;
+    height:300px;
+    float: left;
+    padding:0 10px 0 0;
+}
+
+.container{
+    margin:50px auto;
+    width:75%;
+    padding: 8px;
+
+}
+
+.text{
+    text-align: justify;
+    font-family:worksans;
+}
+.image2{
+    position:relative;
+    opacity:1;
+}
+
+
+
+
+
+
