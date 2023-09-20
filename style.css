@@ -2,13 +2,15 @@
     margin:0 auto;
     padding:0;
 }
-
+html{
+    height: -webkit-fill-available;
+}
 
 body {
     position: relative;
     justify-content: center;
     align-items: center;
-    height:100vh;
+    height:100vh -webkit-fill-available;
     background-attachment: fixed;
     background-size:auto;
 
