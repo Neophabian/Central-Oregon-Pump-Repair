@@ -35,8 +35,31 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* CSS rules for mobile devices */
-    body{
-        background-image:url(photos/Office\ 1edit2.jpg);
+    body {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        background-attachment: fixed;
+        background-size:auto;
+    
+        
+        
+    
+        &::before{
+            content:'';
+        background-image:url(Photos/Office\ 1edit2.jpg);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-attachment: fixed;
+        background-size:100% 100%;
+        position: fixed; 
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        opacity: 0.6;
+        }  
     }
     .image {
       max-width: 100%;
