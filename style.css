@@ -35,6 +35,9 @@ body {
 
 @media only screen and (max-width: 600px) {
     /* CSS rules for mobile devices */
+    body{
+        position:sticky;
+    }
     .image {
       max-width: 100%;
     }
@@ -169,13 +172,13 @@ img{
 }
 
 .img3{
+    position:relative;
     display:block;
     margin-left:auto;
     margin-right:auto;
     opacity:1;
-    position:relative;
-    max-width:300px;
-    max-height: fit-content;
+    max-width:500px;
+    max-height:500px;
 }
 
 .container{
