@@ -10,7 +10,7 @@ body {
     position: relative;
     justify-content: center;
     align-items: center;
-    height:100vh -webkit-fill-available;
+    height:100vh;
     background-attachment: fixed;
     background-size:auto;
 
@@ -38,10 +38,14 @@ body {
     .image {
       max-width: 100%;
     }
-  
+    
     .text {
-      font-size: 16px;
+      font-size: 12px;
     }
+    .container {
+        margin:0px;
+    }
+
   }
 
 @font-face{
@@ -143,6 +147,7 @@ table {
 table.center {
     margin-left: auto; 
     margin-right: auto;
+    overflow:auto;
   }
 
 tr{
@@ -159,15 +164,24 @@ tr{
 img{
     max-width:300px;
     max-height:300px;
-    float: left;
     padding:0 10px 0 0;
+    
+}
+
+.img3{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    opacity:1;
+    position:relative;
+    max-width:300px;
+    max-height: fit-content;
 }
 
 .container{
     margin:50px auto;
     max-width:75%;
     padding: 8px;
-
 }
 
 .text{
@@ -177,7 +191,9 @@ img{
 .image2{
     position:relative;
     opacity:1;
+    float: left;
 }
+
 
 
 
