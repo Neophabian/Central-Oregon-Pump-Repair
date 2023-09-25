@@ -40,7 +40,7 @@ body {
         justify-content: center;
         align-items: center;
         height:100vh;
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-size:auto;
     
         
@@ -51,7 +51,7 @@ body {
         background-image:url(Photos/Office\ 1edit2.jpg);
         background-repeat:no-repeat;
         background-attachment: fixed;
-        background-size:100% 100%;
+        background-size:cover;
         position: fixed; 
         top:0;
         bottom:0;
