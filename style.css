@@ -51,7 +51,7 @@ body {
         background-image:url(Photos/Office\ 1edit2.jpg);
         background-repeat:no-repeat;
         background-position:center;
-        background-attachment: sticky;
+        background-attachment: fixed;
         background-size:100% 100%;
         position: fixed; 
         top:0;
@@ -72,6 +72,10 @@ body {
         margin:0px;
         padding:0px;
         border:1;
+    }
+    .table-container table td:nth-child(3),
+    .table-container table th:nth-child(3){
+        display:none;
     }
 
   }
@@ -166,6 +170,16 @@ h2{
     position: relative;
     text-align:center;
     
+}
+
+.table-container {
+    overflow-x:auto;
+    max-width:100%;
+}
+
+.table-container table{
+    width:100%;
+    table-layout: fixed;
 }
 
 table {
