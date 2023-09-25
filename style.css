@@ -41,7 +41,8 @@ body {
         align-items: center;
         height:100vh;
         background-attachment: fixed;
-        background-size:auto;
+        background-size:cover;
+        overflow:hidden;
     
         
         
@@ -52,7 +53,7 @@ body {
         background-repeat:no-repeat;
         background-position:center;
         background-attachment: fixed;
-        background-size:100% 100%;
+        background-size:cover;
         position: fixed; 
         top:0;
         bottom:0;
