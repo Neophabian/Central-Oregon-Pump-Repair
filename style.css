@@ -21,7 +21,7 @@ body {
         content:'';
     background-image:url(Photos/Office\ 1edit.jpg);
     background-repeat:no-repeat;
-    background-position:center center;
+    background-position:center;
     background-attachment: fixed;
     background-size:100% 100%;
     position: fixed; 
@@ -40,7 +40,7 @@ body {
         justify-content: center;
         align-items: center;
         height:100vh;
-        background-attachment:fixed;
+        background-attachment: scroll;
         background-size:auto;
     
         
@@ -48,11 +48,11 @@ body {
     
         &::before{
             content:'';
-        background-image:url(Photos/Office\ 1edit2.jpg);
+        background-image:url(Photos/Office\ 1edit3.jpg);
         background-repeat:no-repeat;
         background-position:center;
         background-attachment: fixed;
-        background-size:800px 600px;
+        background-size:100% 100%;
         position: fixed; 
         top:0;
         bottom:0;
