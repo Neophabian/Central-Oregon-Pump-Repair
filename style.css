@@ -72,7 +72,7 @@ body {
         margin:0px;
         padding:0px;
         border:1;
-        .text{font-size:10px;}
+        .text{font-size:8px;}
     }
     .table-container table td:nth-child(3),
     .table-container table th:nth-child(3){
